@@ -27,4 +27,12 @@ playwright install
 playwright install-deps
 ```
 
-### 
+### Containerized run
+
+docker build -t website-scraper .
+docker run --rm website-scraper
+
+### Containerized run with debugpy
+
+docker build --build-arg BUILD_IMAGE_FOR_DEV=true -t website-scraper .
+docker run -p 5678:5678 --rm website-scraper

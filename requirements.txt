@@ -20,6 +20,7 @@ constantly==23.10.4
 Crawl4AI==0.7.4
 cryptography==45.0.7
 cssselect==1.3.0
+debugpy==1.8.16
 defusedxml==0.7.1
 distro==1.9.0
 fake-http-header==0.3.5
